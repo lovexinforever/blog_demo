@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        div {
+            border: 1px solid #eee;
+            width: 500px;
+            margin-left: 20px;
+        }
+
+        .singer {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .multiline {
+            margin-top: 20px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+            width: 300px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="singer">测试一行或多行显示测试一行或多行显示测试一行或多行显示测试一行或多行显示测试一行 或多行显示测试一行或多行显示测试一行或多行显示
+    </div>
+    <div class="multiline">测试一行或多行显示测试一行或多行显示测试一行或多行显示测试一行或多行显示测试一行 或多行显示测试一行或多行显示测试一行或多行显示
+    </div>
+</body>
+
+</html>
